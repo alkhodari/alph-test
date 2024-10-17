@@ -2,6 +2,7 @@
 
 int main()
 {
-  std::cout << "Hello World" << std::endl;
+  auto text = 'Hello';
+  std::cout << text << " World" << std::endl;
   return 0;
 }
